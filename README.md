@@ -10,7 +10,7 @@ Simple NOPing would make the player freeze eventhough the position vector change
 The trainer does contain ```idBadReadPtr``` checks but sometimes (espectially in flashbacks) only one coordinate of the vec3 will become
 invalid so there will be a bad read.  
 In addition to that the game loads chunks which the flying does not trigger. If you want to make an other part load you have to disable the fly hack 
-and walk the "normal path the game wants you to go" until it has fully loaded.  
+and walk the "normal path" the game wants you to go until it has fully loaded.  
 
 Use Numpad * to toggle the visibility of the menu.
 
